@@ -1,0 +1,25 @@
+// Color Variables
+
+$font: #6C6C6C;
+$hoverBG: #202020;
+
+
+// Global Elements 
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 1.5em;
+	font-family: helvetica;
+	color: $font;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+a:hover {
+	background-color: $hoverBG;
+	color: #ffffff;
+}
+
+// Classes
