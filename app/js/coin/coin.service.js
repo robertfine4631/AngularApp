@@ -15,6 +15,12 @@
         this.country = attributes.country;
       };
 
+      //Add a new coin
+
+      this.addCoin = function (newCoin) {
+        var ncoin = new Coin(newCoin);
+        return $http.post(endpoint, ncoin, PARSE.CONFIG)
+      }
 
     }
   ])
