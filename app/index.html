@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Project Name</title>
+  <title>How Far Did I walk?</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/vendor/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body ng-app="coins">
+<body ng-app="app">
 
-<nav>
-  <a href="#/">Home</a>
-  <a href="#/AddACoin">Add a Coin</a>
-  <a href="#/Inventory">Inventory</a>
-</nav>
-  <div class="container" ng-view="">
+<header>
+  <nav>
+    <ul>
+      <li><a href="#"><button>Register/Login</button></a></li>
+      <li><a href="#"><button>Home</button></a></li>
+      <li><a href="#"><button>Distance Walked Today</button></a></li>
+      <li><a href="#"><button>Total Distance Walked</button></a></li>
+    </ul>
+  </nav>
+</header>
+
+  <div class="container" ng-view>
 
   </div>
 
