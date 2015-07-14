@@ -1,0 +1,8 @@
+<div id="today">
+  <h1>Welcome back {{ user }}</h1>
+  <hr />
+  <form ng-submit="distance(today)">
+  <label>Enter in How much you have walked today:<input type='text' placeholder='Amount walked today' ng-model="today.miles"></label>
+  <label>Enter PASSWORD for security<input type='password' placeholder='password' ng-model='today.password'><button>Submit</button>
+  </form>
+</div>
