@@ -24,6 +24,11 @@
       controller: 'Register'
     })
 
+    .when('/login',{
+      templateUrl: 'js/register/login.tpl.html',
+      controller: 'Login'
+    })
+
     .when('/home',{
       templateUrl: 'js/home/home.tpl.html',
       controller: 'Home'

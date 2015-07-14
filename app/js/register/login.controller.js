@@ -3,7 +3,7 @@
 
   angular.module('app')
 
-  .controller('Register', ['$scope', '$http', 'PARSE', '$location', '$cookies',
+  .controller('Login', ['$scope', '$http', 'PARSE', '$location', '$cookies',
     function ($scope, $http, PARSE, $location, $cookies){
 
       var user = function (options) {
