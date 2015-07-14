@@ -1,25 +1,32 @@
 // Color Variables
 
-$font: #6C6C6C;
-$hoverBG: #202020;
 
 
-// Global Elements 
-
-a {
-	text-decoration: none;
-	cursor: pointer;
-	font-size: 1.5em;
-	font-family: helvetica;
-	color: $font;
-	border: 1px solid black;
-	border-radius: 5px;
-	padding: 5px;
+// Global Elements
+header {
+	border-bottom: 2px solid black;
+	background-color: #1D6FB1;
+	padding-top: 10px;
+	nav {
+		ul {
+			list-style: none;
+			li {
+				display: inline;
+				a {
+					color: black;
+					button {
+						border-radius: 5px;
+					}
+				}
+			}
+		}
+	}
 }
+// Registration
 
-a:hover {
-	background-color: $hoverBG;
-	color: #ffffff;
+#registration {
+	text-align: center;
+	h1 {
+		text-align: center;
+	}
 }
-
-// Classes

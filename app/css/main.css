@@ -1,13 +1,17 @@
-a {
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 1.5em;
-  font-family: helvetica;
-  color: #6C6C6C;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 5px; }
+header {
+  border-bottom: 2px solid black;
+  background-color: #1D6FB1;
+  padding-top: 10px; }
+  header nav ul {
+    list-style: none; }
+    header nav ul li {
+      display: inline; }
+      header nav ul li a {
+        color: black; }
+        header nav ul li a button {
+          border-radius: 5px; }
 
-a:hover {
-  background-color: #202020;
-  color: #ffffff; }
+#registration {
+  text-align: center; }
+  #registration h1 {
+    text-align: center; }
