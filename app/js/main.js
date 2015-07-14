@@ -38,6 +38,6 @@
       templateUrl: 'js/distance/totaldistance.tpl.html',
       controller: 'Total'
     });
-  })
+  });
 
 }());
