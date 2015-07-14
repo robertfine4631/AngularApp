@@ -25,18 +25,18 @@
     })
 
     .when('/home',{
-      templateUrl: '',
-      controller: ''
+      templateUrl: 'js/home/home.tpl.html',
+      controller: 'Home'
     })
 
     .when('/distance_today',{
-      templateUrl: '',
-      controller: ''
+      templateUrl: 'js/distance/todaydistance.tpl.html',
+      controller: 'Today'
     })
 
     .when('/total_distance', {
-      templateUrl: '',
-      controller: ''
+      templateUrl: 'js/distance/totaldistance.tpl.html',
+      controller: 'Total'
     });
   })
 
